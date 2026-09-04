@@ -70,7 +70,7 @@ export default function LinkedInSnapshot({ isMobile = false }: AppComponentProps
                         <Users className="h-3.5 w-3.5" />
                         {recruiterProfile.linkedIn.connections} connections
                       </span>
-                      <span>{recruiterProfile.linkedIn.followers} followers</span>
+                      <span>{recruiterProfile.linkedIn.followers.toLocaleString('en-US')} followers</span>
                     </div>
                   </div>
                 </div>

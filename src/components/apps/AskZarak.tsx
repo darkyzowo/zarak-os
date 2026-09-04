@@ -46,7 +46,7 @@ export default function AskZarak({ isMobile = false }: AppComponentProps) {
       id: 'intro',
       role: 'assistant',
       content:
-        "Ask me about Zarak's background, CV, projects, security/GRC experience, customer-facing work, or how to contact him. I only answer from verified local portfolio data.",
+        "Ask me about Zarak's background, four CVs, projects, security/GRC, FDE work, GTM/CS, or how to contact him. I only answer from verified local portfolio data.",
     },
   ]);
   const [streaming, setStreaming] = useState<{ id: string; chars: number } | null>(null);

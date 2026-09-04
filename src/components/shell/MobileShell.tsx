@@ -52,7 +52,7 @@ const MOBILE_APP_COPY: Record<AppId, { eyebrow: string; description: string }> =
   },
   cv: {
     eyebrow: 'Recruiter essential',
-    description: 'Review the CV directly on-device, then open or download the bundled PDF.',
+    description: 'Preview and download four recruiter-ready CVs: GRC, FDE, GTM + CS, and Tech Ops.',
   },
   linkedin: {
     eyebrow: 'Career snapshot',

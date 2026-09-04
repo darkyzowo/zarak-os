@@ -1,18 +1,22 @@
 ---
 id: projects-overview
 title: Projects Zarak has built
-tags: [projects, built, portfolio, venderscope, contraai, zarak-os, claude-harness, red-team-desk, maternify, react, typescript, build]
+tags: [projects, built, portfolio, venderscope, contraai, zarak-os, claude-harness, red-team-desk, maternify, n8n, react, typescript, build]
 aliases: [what has zarak built, what has he built, what projects has zarak built, what did zarak build, what projects, things built, what has been built, projects built, projects he built]
 sources: [cv, portfolio, projects]
 confidence: verified
 actions: [open-venderscope, open-github]
 ---
 
-Zarak has built six portfolio projects, each solving real operational pain:
+Zarak has built these projects, each solving real operational pain:
 
 **VenderScope** — A continuous vendor risk intelligence platform. Replaces manual annual vendor audits with live weighted risk scoring across HIBP, NVD/NIST, Shodan, and Companies House. Produces audit-ready PDF reports for ISO 27001 Annex A and Cyber Essentials reviews.
 
-**ContraAI** — A full-stack AI contract review platform built with Next.js and the Claude API. Born from a real workflow gap around contract handling and review at work.
+**ContraAI** — A full-stack AI contract review platform built with Next.js and the Claude API. Born from a real workflow gap around contract handling and review at Thrive. Together with the DPA tracker redesign, it cut contract/DPA approval time by 70%.
+
+**Thrive Content Audit Tool** — Internal structured pipeline that replaced manual ChatGPT workflows and is now the company standard for compliance cross-referencing.
+
+**Agentic Pre-Sales Automation Suite (n8n)** — Interlocking n8n workflows that ingest tenders/RFPs, extract requirements, and draft grounded responses from a live capability library. Compressed bid cycles by 57%.
 
 **ZARAK_OS** — This portfolio itself. An immersive OS-like web app built with React, TypeScript, Vite, and Three.js, featuring window management, dock, Spotlight, Mission Control, and a 3D workstation environment.
 

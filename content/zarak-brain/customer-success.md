@@ -1,13 +1,15 @@
 ---
 id: customer-success
 title: Customer-focused technical experience
-tags: [customer-success, account-management, onboarding, stakeholder, pre-sales, adoption, csm, experience]
-aliases: [customer success, csm, account management, onboarding, client-facing, technical onboarding, customer-facing experience, customer facing experience, customer-facing role, what customer-facing experience]
-sources: [customer-cv]
+tags: [customer-success, account-management, onboarding, stakeholder, pre-sales, adoption, csm, gtm, revops, experience]
+aliases: [customer success, csm, account management, onboarding, client-facing, technical onboarding, customer-facing experience, customer facing experience, customer-facing role, what customer-facing experience, gtm, revops, commercial lead]
+sources: [cv]
 confidence: verified
 actions: [open-cv, open-linkedin, open-contact]
 ---
 
-Zarak brings a customer-first technical background. At Thrive Learning, he supports stakeholders across procurement, business teams, customer assurance, due diligence, and pre-sales-style RFI/security responses. He translates dense technical requirements into clear next steps for people who need to act on them.
+Zarak brings a customer-first technical background aimed at GTM, Customer Success, and Customer Engineering environments.
 
-At Nexique Design Labs, he co-founded the studio and ran it as Lead PM, owning 15+ client accounts end-to-end across onboarding, requirements gathering, execution, and client relationship management, securing contracts worth $1,500+ each at 98% client satisfaction. He built onboarding workflows from scratch and trained a five-person team.
+At Nexique Design Labs he co-founded the studio and ran it as Commercial Lead for 3 years, owning the entire GTM and delivery pipeline: cold outreach, phone calling, organic lead generation, and end-to-end project sign-off. He secured $8,500+ across 15+ accounts, held 98% satisfaction and 7% churn, built a Notion CRM from scratch, and drove 50k+ organic views with no paid budget. He also mentored 5 interns so senior time stayed on delivery.
+
+At Thrive Learning he supports procurement, legal, business teams, customer assurance, due diligence, and pre-sales-style RFI/security responses. He maps security controls to client requirements, has contributed to high-value deal closure, and ships internal tools (ContraAI, Content Audit Tool, n8n pre-sales automation) that unblock procurement and compress bid cycles.

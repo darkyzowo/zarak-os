@@ -19,4 +19,8 @@ test('CV preview renders when newer Map helpers are unavailable', async ({ page 
 
   await expect(page.locator('canvas').first()).toBeVisible({ timeout: 30_000 });
   await expect(page.getByText('Preview unavailable in this browser')).toHaveCount(0);
+  await expect(page.getByRole('tab', { name: 'GRC' })).toBeVisible();
+  await expect(page.getByRole('tab', { name: 'FDE' })).toBeVisible();
+  await expect(page.getByRole('tab', { name: 'GTM + CS' })).toBeVisible();
+  await expect(page.getByRole('tab', { name: 'Tech Ops' })).toBeVisible();
 });

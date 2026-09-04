@@ -13,6 +13,7 @@ import {
   certifications,
   educationHistory,
   linkedInCurrentRole,
+  linkedInExperience,
   linkedInTopSkills,
   recruiterProfile,
 } from '../../data/recruiterProfile';
@@ -149,24 +150,33 @@ export default function LinkedInSnapshot({ isMobile = false }: AppComponentProps
                   <h2 className="text-sm font-semibold text-os-text-pri">Experience highlights</h2>
                 </div>
 
-                <div className="rounded-2xl border border-os-accent/15 bg-os-accent/[0.055] p-5">
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <h3 className="text-base font-semibold text-os-text-pri">{linkedInCurrentRole.title}</h3>
-                      <p className="mt-1 text-sm text-os-text-sec">{linkedInCurrentRole.company} · {linkedInCurrentRole.employmentType} · {linkedInCurrentRole.dateRange} · {linkedInCurrentRole.workMode}</p>
-                    </div>
-                    <span className="rounded-full border border-white/10 bg-white/[0.08] px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-os-accent">
-                      Current
-                    </span>
-                  </div>
-
-                  <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                    {linkedInCurrentRole.highlights.map((item) => (
-                      <div key={item} className="rounded-2xl border border-white/10 bg-os-bg/40 p-4">
-                        <p className="text-sm leading-6 text-os-text-pri/84">{item}</p>
+                <div className="space-y-4">
+                  {linkedInExperience.map((role, index) => (
+                    <div
+                      key={`${role.company}-${role.title}`}
+                      className={index === 0
+                        ? 'rounded-2xl border border-os-accent/15 bg-os-accent/[0.055] p-5'
+                        : 'rounded-2xl border border-white/10 bg-white/[0.035] p-5'}
+                    >
+                      <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                        <div>
+                          <h3 className="text-base font-semibold text-os-text-pri">{role.title}</h3>
+                          <p className="mt-1 text-sm text-os-text-sec">{role.company} · {role.employmentType} · {role.dateRange} · {role.workMode}</p>
+                        </div>
+                        <span className={`rounded-full border px-3 py-1 text-[10px] uppercase tracking-[0.18em] ${index === 0 ? 'border-white/10 bg-white/[0.08] text-os-accent' : 'border-white/10 bg-white/[0.04] text-os-text-sec'}`}>
+                          {index === 0 ? 'Current' : 'Previous'}
+                        </span>
                       </div>
-                    ))}
-                  </div>
+
+                      <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                        {role.highlights.map((item) => (
+                          <div key={item} className="rounded-2xl border border-white/10 bg-os-bg/40 p-4">
+                            <p className="text-sm leading-6 text-os-text-pri/84">{item}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </motion.section>
             </div>

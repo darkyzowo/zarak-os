@@ -22,7 +22,7 @@ The result is a portfolio that behaves more like a small operating system than a
 - **Aegis-M ambient companion**: a shell-local desktop buddy with hover/click lines, passive thoughts, reduced-motion support, and context-aware recruiter/security/product copy.
 - **Backdrop Studio (`backdrop.sys`)**: shell-only background switcher for animated desktop presets, including the restored original shell look. Changes persist locally in the browser and do not touch the 3D scene.
 - **Recruiter review apps**: native in-OS `CV.app`, `linkedin-experience.app`, `about.txt`, `contact.ssh`, `skills.app`, and `venderscope.browser`.
-- **In-app CV rendering**: PDF.js-powered CV preview with download and open-in-tab fallbacks.
+- **In-app CV rendering**: four recruiter-ready PDFs (GRC, FDE, GTM + CS, Tech Ops) with PDF.js preview plus download and open-in-tab fallbacks.
 - **Keyboard-first navigation**: `⌘/Ctrl/Alt + K` Spotlight, `F3` / modifier + `ArrowUp` Mission Control, plus minimize/quit shortcuts.
 - **Dock and shell motion**: small-surface motion design built with `motion/react`, respecting reduced-motion preferences.
 - **Cyber-noir visual system**: dark shell chrome, scanlines, cyan/violet accents, subtle glow, and layered backdrop treatments.

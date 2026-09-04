@@ -7,11 +7,11 @@ confidence: verified
 actions: [open-cv, open-linkedin, open-contact, copy-email]
 ---
 
-Syed Zarak Hassan is a Compliance and Information Security professional based in Nottingham, England, United Kingdom, open to relocation.
+Syed Zarak Hassan is a technical builder and GRC professional based in Nottingham, England, United Kingdom, open to relocation.
 
 Current headline: Placement Compliance Analyst @ THRIVE.
 
-Core positioning: Compliance and Information Security professional with hands-on experience across ISO 27001, ISO 9001, Cyber Essentials, vendor risk management, endpoint security, audit readiness, customer assurance, technical onboarding, and stakeholder enablement.
+Core positioning: he bridges software engineering and cyber security, shipping production tools that make manual compliance friction obsolete. Target lanes include GRC Engineer/Analyst, Forward Deployed Engineer, GTM/Customer Success, and technical operations.
 
 Contact:
 - Email: syedzrk1000@gmail.com

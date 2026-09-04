@@ -53,7 +53,7 @@ export default function Skills({ isMobile = false }: AppComponentProps) {
               <div className="rounded-2xl border border-[#F5BF4F]/15 bg-[#F5BF4F]/[0.055] p-4">
                 <span className="text-sm font-semibold text-[#F5BF4F]">Prof. Cyber Security</span>
                 <p className="mt-2 text-xs leading-relaxed text-os-text-sec">
-                  {certifications[1].issuer.split(' ')[0]} Certified & Active {certifications[0].title}
+                  Google Certified · {certifications[0].title}
                 </p>
               </div>
             </div>
@@ -111,7 +111,9 @@ export default function Skills({ isMobile = false }: AppComponentProps) {
             </div>
             <div className="rounded-2xl border border-[#F5BF4F]/15 bg-[#F5BF4F]/[0.055] p-4">
               <span className="text-sm font-semibold text-[#F5BF4F]">Prof. Cyber Security</span>
-              <p className="mt-2 text-xs leading-relaxed text-os-text-sec">{certifications[1].issuer.split(' ')[0]} Certified & Active {certifications[0].title}</p>
+              <p className="mt-2 text-xs leading-relaxed text-os-text-sec">
+                Google Certified · {certifications[0].title}
+              </p>
             </div>
           </div>
 

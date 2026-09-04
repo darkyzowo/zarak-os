@@ -167,7 +167,7 @@ export default function LoginScreen(props: {
                   <div className="rounded-2xl border border-white/10 bg-white/[0.045] px-3.5 py-3">
                     <div className="text-[9px] uppercase tracking-[0.16em] text-os-text-sec/65">Target lanes</div>
                     <div className="mt-1 whitespace-nowrap text-xs font-semibold leading-4 text-os-text-pri">
-                      Security + Automation
+                      GRC · FDE · GTM
                     </div>
                   </div>
                 </div>
@@ -183,14 +183,14 @@ export default function LoginScreen(props: {
                     {recruiterProfile.name}
                   </h1>
                   <p className={`mt-4 max-w-xl text-os-text-pri/82 ${isMobileExperience ? 'text-xs leading-5' : 'text-sm leading-6'}`}>
-                    Compliance and information security professional with hands-on GRC across ISO 27001, ISO 9001, Cyber Essentials, vendor risk, endpoint operations, customer assurance, and stakeholder guidance.
+                    Technical builder and GRC professional. Ships production tools that cut compliance friction — ContraAI, vendor risk, endpoint ops, GTM delivery, and stakeholder guidance.
                   </p>
                 </div>
 
                 <div className={`mt-5 grid grid-cols-3 gap-2 ${isMobileExperience ? 'hidden' : ''}`}>
-                  <IdentitySignal label="Lane" value="Security" />
-                  <IdentitySignal label="Service" value="Tech Support" />
-                  <IdentitySignal label="Proof" value="GRC Ready" />
+                  <IdentitySignal label="Lane" value="GRC" />
+                  <IdentitySignal label="Build" value="Automation" />
+                  <IdentitySignal label="Proof" value="4 CVs" />
                 </div>
               </div>
             </div>

@@ -8,7 +8,7 @@ confidence: verified
 actions: [open-contact]
 ---
 
-ContraAI is an internal Thrive Learning tool: an AI-powered contract review engine built with Next.js 15 and the Claude API, analyzing legal documents against a configurable company playbook. It came from a real workflow gap around contract handling and review, and reduced procurement approval cycles by 70% by automating detection of high-risk clauses and giving legal teams instant negotiation guidance.
+ContraAI is an internal Thrive Learning tool: an AI-powered contract review engine built with Next.js 15 and the Claude API, analyzing legal documents against a configurable company playbook. Together with a redesigned company-wide DPA tracker, it cut contract and DPA approval time by 70% by automating detection of high-risk clauses and giving legal teams instant negotiation guidance. On at least one review it also uncovered a mission-critical redline that human review missed.
 
 Notable design choices:
 - Deterministic risk scoring that tiers contracts from Acceptable to Critical based on playbook deviations, not model variance — reproducible results, not LLM guesswork.

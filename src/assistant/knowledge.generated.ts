@@ -16,7 +16,8 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "cybersecurity",
       "soc",
       "letsdefend",
-      "hackthebox"
+      "hackthebox",
+      "sololearn"
     ],
     "aliases": [
       "certs",
@@ -32,7 +33,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-cv",
       "open-linkedin"
     ],
-    "body": "Certifications and learning examples:\r\n- Google Professional Cyber Security Certificate / Google Cybersecurity Specialization, issued 2024.\r\n- SOC Analyst / SOC Member learning path through LetsDefend and HackTheBox, issued 2024.\r\n- Hands-on labs and practice covering Linux, SQL/MySQL, Python, incident response, log analysis, threat detection, phishing, malware, and web attack scenarios."
+    "body": "Certifications and learning examples:\r\n- Google Professional Cyber Security Certificate, Coursera and Google, 2024.\r\n- SOC Analyst Learning Path through LetsDefend and HackTheBox, 2024 — hands-on threat detection, incident investigation, and response in a simulated SOC, including phishing, malware, and web-attack scenarios.\r\n- Introduction to Python, Sololearn, 2023.\r\n- Introduction to SQL, Sololearn, 2023."
   },
   {
     "id": "contact",
@@ -75,6 +76,8 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "pre-sales",
       "adoption",
       "csm",
+      "gtm",
+      "revops",
       "experience"
     ],
     "aliases": [
@@ -87,10 +90,13 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "customer-facing experience",
       "customer facing experience",
       "customer-facing role",
-      "what customer-facing experience"
+      "what customer-facing experience",
+      "gtm",
+      "revops",
+      "commercial lead"
     ],
     "sources": [
-      "customer-cv"
+      "cv"
     ],
     "confidence": "verified",
     "actions": [
@@ -98,7 +104,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-linkedin",
       "open-contact"
     ],
-    "body": "Zarak brings a customer-first technical background. At Thrive Learning, he supports stakeholders across procurement, business teams, customer assurance, due diligence, and pre-sales-style RFI/security responses. He translates dense technical requirements into clear next steps for people who need to act on them.\r\n\r\nAt Nexique Design Labs, he co-founded the studio and ran it as Lead PM, owning 15+ client accounts end-to-end across onboarding, requirements gathering, execution, and client relationship management, securing contracts worth $1,500+ each at 98% client satisfaction. He built onboarding workflows from scratch and trained a five-person team."
+    "body": "Zarak brings a customer-first technical background aimed at GTM, Customer Success, and Customer Engineering environments.\r\n\r\nAt Nexique Design Labs he co-founded the studio and ran it as Commercial Lead for 3 years, owning the entire GTM and delivery pipeline: cold outreach, phone calling, organic lead generation, and end-to-end project sign-off. He secured $8,500+ across 15+ accounts, held 98% satisfaction and 7% churn, built a Notion CRM from scratch, and drove 50k+ organic views with no paid budget. He also mentored 5 interns so senior time stayed on delivery.\r\n\r\nAt Thrive Learning he supports procurement, legal, business teams, customer assurance, due diligence, and pre-sales-style RFI/security responses. He maps security controls to client requirements, has contributed to high-value deal closure, and ships internal tools (ContraAI, Content Audit Tool, n8n pre-sales automation) that unblock procurement and compress bid cycles."
   },
   {
     "id": "cv-viewer",
@@ -109,7 +115,11 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "pdf",
       "view",
       "download",
-      "viewer"
+      "viewer",
+      "grc",
+      "fde",
+      "gtm",
+      "ops"
     ],
     "aliases": [
       "view his cv",
@@ -121,7 +131,11 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "zarak cv",
       "cv app",
       "open cv",
-      "read cv"
+      "read cv",
+      "fde cv",
+      "gtm cv",
+      "ops cv",
+      "grc cv"
     ],
     "sources": [
       "cv"
@@ -130,7 +144,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
     "actions": [
       "open-cv"
     ],
-    "body": "Zarak's full CV is available inside CV.app — the dedicated PDF viewer built into ZARAK_OS. You can also download the PDF directly from there.\r\n\r\nUse the \"Open CV.app\" button below to launch it."
+    "body": "Zarak's CVs live inside CV.app — four recruiter-ready PDFs, each viewable and downloadable:\r\n\r\n- GRC & Security — GRC Engineer, Analyst, and Information Security roles.\r\n- Forward Deployed Engineer — AI-native internal tools, n8n workflows, and production deployment.\r\n- GTM & Customer Success — GTM, Customer Success, Customer Engineering, and RevOps roles.\r\n- Technical Operations — founder-associate operations, systems building, and business speed.\r\n\r\nUse the \"Open CV.app\" button below to launch the viewer."
   },
   {
     "id": "education",
@@ -159,7 +173,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-cv",
       "open-linkedin"
     ],
-    "body": "Education:\r\n- MSc Cyber Security, Nottingham Trent University, January 2025 to expected 2026/2027.\r\n- BSc Software Engineering, Iqra University, 2020 to 2024."
+    "body": "Education:\r\n- MSc Cyber Security, Nottingham Trent University, January 2025 to expected December 2026. Dissertation investigates whether diagrammatic techniques improve auditor comprehension of complex systems.\r\n- BSc Software Engineering, Iqra National University, February 2020 to February 2024, Distinction."
   },
   {
     "id": "experience-background",
@@ -195,7 +209,34 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-linkedin",
       "open-contact"
     ],
-    "body": "Zarak is currently a Compliance Analyst at Thrive Learning (Sep 2025 to present, fixed-term contract, Nottingham UK), where he has led an MDM migration to Kandji across 250 endpoints with zero downtime (-40% support tickets), built a company-wide DPA tracker (-70% approval time), passed an ISO 9001 Stage 1 audit by authoring 6 process flows, manages 50+ vendor audits in Vanta, and identified the Shai-Hulud NPM supply chain threat, shipping a custom scan and remediation script via Iru to secure the developer fleet immediately.\n\nBefore that, he co-founded Nexique Design Labs (Sep 2021 to Aug 2024) and ran it as Lead PM, delivering 15+ client projects end-to-end at 98% client satisfaction, and building onboarding workflows from scratch for a 5-person team.\n\nHe is completing an MSc in Cyber Security at Nottingham Trent University (Jan 2025, expected 2026/2027), on top of a BSc Software Engineering (Iqra University, 2020 to 2024). Full detail lives in CV.app, with two versions available: one weighted toward GRC and Security, one toward Operations and RevOps."
+    "body": "Zarak is currently a Compliance Analyst at Thrive Learning (Sep 2025 to present, fixed-term contract through Sep 2026, Nottingham UK). He cut contract and DPA approval time by 70% by redesigning the company-wide DPA tracker and shipping ContraAI, an internal Next.js + Claude API contract-review platform. He also built the Thrive Content Audit Tool, now the company standard for compliance cross-referencing. Other results: ISO 9001 Stage 1 passed with 6 process flows, MDM migration to Kandji/Iru across 250+ endpoints with zero downtime (−40% IT tickets), 50+ vendor audits in Vanta, 75+ Cakewalk ownership records, a high-value prospect RFI that contributed to deal closure, and a custom Shai-Hulud NPM supply-chain scan + remediation deployed via Iru.\n\nBefore that, he co-founded Nexique Design Labs (Sep 2021 to Aug 2024) and ran it as Commercial Lead. He owned the GTM and delivery pipeline for 3 years — cold outreach, phone calling, and organic lead generation — securing $8,500+ across 15+ accounts, holding 98% satisfaction and 7% churn, building a Notion CRM from scratch, driving 50k+ organic views with no paid budget, and mentoring 5 interns.\n\nHe is completing an MSc in Cyber Security at Nottingham Trent University (Jan 2025 to expected Dec 2026), on top of a BSc Software Engineering with Distinction from Iqra National University (2020 to 2024). Full detail lives in CV.app, with four versions: GRC, FDE, GTM + CS, and Tech Ops."
+  },
+  {
+    "id": "forward-deployed",
+    "title": "Forward Deployed Engineer experience",
+    "tags": [
+      "fde",
+      "forward-deployed",
+      "automation",
+      "n8n",
+      "contraai",
+      "thrive"
+    ],
+    "aliases": [
+      "forward deployed",
+      "fde experience",
+      "what fde work",
+      "deployed engineer",
+      "vibe coding"
+    ],
+    "sources": [
+      "cv"
+    ],
+    "confidence": "verified",
+    "actions": [
+      "open-cv"
+    ],
+    "body": "Zarak positions himself as a Forward Deployed Engineer: he sits with the business problem, then ships the production system that removes the manual work.\r\n\r\nAt Thrive Learning that meant:\r\n- ContraAI (Next.js, Claude API), adopted as the procurement/legal review path and, with the DPA tracker redesign, cut contract/DPA approval time by 70%. One review also caught a mission-critical redline human review missed.\r\n- The Thrive Content Audit Tool, which replaced manual ChatGPT workflows and is now the company standard.\r\n- An n8n pre-sales automation suite that compressed bid cycles by 57%.\r\n- Acting as the technical bridge on enterprise deals — owning implementation architecture and security responses to unblock procurement.\r\n- Kandji/Iru endpoint work, including a custom Shai-Hulud NPM remediation deployed without developer downtime.\r\n\r\nHe is supported by an MSc in Cyber Security and four years of technical experience spanning agency delivery and internal tooling."
   },
   {
     "id": "profile",
@@ -221,7 +262,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-contact",
       "copy-email"
     ],
-    "body": "Syed Zarak Hassan is a Compliance and Information Security professional based in Nottingham, England, United Kingdom, open to relocation.\r\n\r\nCurrent headline: Placement Compliance Analyst @ THRIVE.\r\n\r\nCore positioning: Compliance and Information Security professional with hands-on experience across ISO 27001, ISO 9001, Cyber Essentials, vendor risk management, endpoint security, audit readiness, customer assurance, technical onboarding, and stakeholder enablement.\r\n\r\nContact:\r\n- Email: syedzrk1000@gmail.com\r\n- LinkedIn: https://www.linkedin.com/in/zarak-hassan7/\r\n- GitHub: https://github.com/syed-hassan7\r\n- Portfolio: https://zarak-os.vercel.app/"
+    "body": "Syed Zarak Hassan is a technical builder and GRC professional based in Nottingham, England, United Kingdom, open to relocation.\r\n\r\nCurrent headline: Placement Compliance Analyst @ THRIVE.\r\n\r\nCore positioning: he bridges software engineering and cyber security, shipping production tools that make manual compliance friction obsolete. Target lanes include GRC Engineer/Analyst, Forward Deployed Engineer, GTM/Customer Success, and technical operations.\r\n\r\nContact:\r\n- Email: syedzrk1000@gmail.com\r\n- LinkedIn: https://www.linkedin.com/in/zarak-hassan7/\r\n- GitHub: https://github.com/syed-hassan7\r\n- Portfolio: https://zarak-os.vercel.app/"
   },
   {
     "id": "claude-harness",
@@ -251,6 +292,30 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
     "body": "Claude Harness is a portable skill-and-rules pack for AI coding agents — advisory, not a state machine. Most agent harnesses try to control the agent with phase gates and edit ceilings; this one assumes a well-briefed agent needs good judgment and a memory that gets smarter instead of bigger, not a cage.\n\nIt ships rules (engineering, design, security invariants), a portable skills catalog, and a self-learning memory layer that turns corrections into durable lessons — after running a criticality check so a wrong correction doesn't get silently encoded as gospel.\n\nMeta detail: this is one of the actual tools involved in building and maintaining this portfolio."
   },
   {
+    "id": "content-audit-tool",
+    "title": "Thrive Content Audit Tool",
+    "tags": [
+      "project",
+      "thrive",
+      "content-audit",
+      "compliance",
+      "internal"
+    ],
+    "aliases": [
+      "content audit tool",
+      "thrive content audit",
+      "compliance cross referencing"
+    ],
+    "sources": [
+      "cv"
+    ],
+    "confidence": "verified",
+    "actions": [
+      "open-cv"
+    ],
+    "body": "The Thrive Content Audit Tool is an internal platform Zarak built and scaled at Thrive Learning. It replaced manual ChatGPT workflows with a structured pipeline for compliance cross-referencing, and was adopted as the company standard across the content team."
+  },
+  {
     "id": "contra-ai",
     "title": "ContraAI",
     "tags": [
@@ -276,7 +341,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
     "actions": [
       "open-contact"
     ],
-    "body": "ContraAI is an internal Thrive Learning tool: an AI-powered contract review engine built with Next.js 15 and the Claude API, analyzing legal documents against a configurable company playbook. It came from a real workflow gap around contract handling and review, and reduced procurement approval cycles by 70% by automating detection of high-risk clauses and giving legal teams instant negotiation guidance.\r\n\r\nNotable design choices:\r\n- Deterministic risk scoring that tiers contracts from Acceptable to Critical based on playbook deviations, not model variance — reproducible results, not LLM guesswork.\r\n- A full immutable audit trail for every sensitive action (clause reviews, user invites) to meet internal GRC logging requirements.\r\n- A DPA-specific intelligence module that detects subprocessor gaps and flags missing required clauses automatically.\r\n- Role-based governance (Viewer, Legal, Admin) so sensitive contract data stays restricted to authorized personnel."
+    "body": "ContraAI is an internal Thrive Learning tool: an AI-powered contract review engine built with Next.js 15 and the Claude API, analyzing legal documents against a configurable company playbook. Together with a redesigned company-wide DPA tracker, it cut contract and DPA approval time by 70% by automating detection of high-risk clauses and giving legal teams instant negotiation guidance. On at least one review it also uncovered a mission-critical redline that human review missed.\r\n\r\nNotable design choices:\r\n- Deterministic risk scoring that tiers contracts from Acceptable to Critical based on playbook deviations, not model variance — reproducible results, not LLM guesswork.\r\n- A full immutable audit trail for every sensitive action (clause reviews, user invites) to meet internal GRC logging requirements.\r\n- A DPA-specific intelligence module that detects subprocessor gaps and flags missing required clauses automatically.\r\n- Role-based governance (Viewer, Legal, Admin) so sensitive contract data stays restricted to authorized personnel."
   },
   {
     "id": "maternify",
@@ -320,6 +385,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "claude-harness",
       "red-team-desk",
       "maternify",
+      "n8n",
       "react",
       "typescript",
       "build"
@@ -345,7 +411,35 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-venderscope",
       "open-github"
     ],
-    "body": "Zarak has built six portfolio projects, each solving real operational pain:\r\n\r\n**VenderScope** — A continuous vendor risk intelligence platform. Replaces manual annual vendor audits with live weighted risk scoring across HIBP, NVD/NIST, Shodan, and Companies House. Produces audit-ready PDF reports for ISO 27001 Annex A and Cyber Essentials reviews.\r\n\r\n**ContraAI** — A full-stack AI contract review platform built with Next.js and the Claude API. Born from a real workflow gap around contract handling and review at work.\r\n\r\n**ZARAK_OS** — This portfolio itself. An immersive OS-like web app built with React, TypeScript, Vite, and Three.js, featuring window management, dock, Spotlight, Mission Control, and a 3D workstation environment.\r\n\r\n**Claude Harness** — A portable skill-and-rules pack for AI coding agents, built on judgment and memory rather than mechanical phase gates. One of the actual tools used to build and maintain this portfolio.\r\n\r\n**Red Team Desk (Sentinel Red)** — A static security and GRC readiness tool: posture score, 10-domain control heatmap, and evidence-gated findings exported as HTML, Markdown, or SARIF.\r\n\r\n**Maternify** — A multilingual, safety-gated AI maternal advocacy platform, built in 24 hours at the VibeHack London 2026 hackathon (5th place, Health Impact track). Hardcodes a safety gate that routes clinical red-flags straight to 999/triage instead of risking an AI-generated response."
+    "body": "Zarak has built these projects, each solving real operational pain:\r\n\r\n**VenderScope** — A continuous vendor risk intelligence platform. Replaces manual annual vendor audits with live weighted risk scoring across HIBP, NVD/NIST, Shodan, and Companies House. Produces audit-ready PDF reports for ISO 27001 Annex A and Cyber Essentials reviews.\r\n\r\n**ContraAI** — A full-stack AI contract review platform built with Next.js and the Claude API. Born from a real workflow gap around contract handling and review at Thrive. Together with the DPA tracker redesign, it cut contract/DPA approval time by 70%.\r\n\r\n**Thrive Content Audit Tool** — Internal structured pipeline that replaced manual ChatGPT workflows and is now the company standard for compliance cross-referencing.\r\n\r\n**Agentic Pre-Sales Automation Suite (n8n)** — Interlocking n8n workflows that ingest tenders/RFPs, extract requirements, and draft grounded responses from a live capability library. Compressed bid cycles by 57%.\r\n\r\n**ZARAK_OS** — This portfolio itself. An immersive OS-like web app built with React, TypeScript, Vite, and Three.js, featuring window management, dock, Spotlight, Mission Control, and a 3D workstation environment.\r\n\r\n**Claude Harness** — A portable skill-and-rules pack for AI coding agents, built on judgment and memory rather than mechanical phase gates. One of the actual tools used to build and maintain this portfolio.\r\n\r\n**Red Team Desk (Sentinel Red)** — A static security and GRC readiness tool: posture score, 10-domain control heatmap, and evidence-gated findings exported as HTML, Markdown, or SARIF.\r\n\r\n**Maternify** — A multilingual, safety-gated AI maternal advocacy platform, built in 24 hours at the VibeHack London 2026 hackathon (5th place, Health Impact track). Hardcodes a safety gate that routes clinical red-flags straight to 999/triage instead of risking an AI-generated response."
+  },
+  {
+    "id": "presales-suite",
+    "title": "Agentic Pre-Sales Automation Suite",
+    "tags": [
+      "project",
+      "n8n",
+      "presales",
+      "rfp",
+      "tender",
+      "automation",
+      "claude"
+    ],
+    "aliases": [
+      "pre-sales automation",
+      "n8n suite",
+      "rfp automation",
+      "tender automation",
+      "bid lifecycle"
+    ],
+    "sources": [
+      "cv"
+    ],
+    "confidence": "verified",
+    "actions": [
+      "open-cv"
+    ],
+    "body": "The Agentic Pre-Sales Automation Suite is an end-to-end n8n system Zarak built to stop Pre-Sales teams spending days cross-referencing multi-format tender and RFP documents against scattered internal evidence.\r\n\r\nIt uses interlocking workflows for document ingestion, requirement extraction, and AI-powered response drafting. n8n Data Tables and Claude parse PDFs and spreadsheets, then semantic filtering matches buyer criteria against a live capability library so answers stay grounded.\r\n\r\nThe result: a repeatable bid pipeline with Slack error alerts and cost-controlled AI routing, compressing the bid lifecycle and closing deals 57% faster."
   },
   {
     "id": "red-team-desk",
@@ -463,7 +557,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-cv",
       "open-linkedin"
     ],
-    "body": "Zarak has hands-on GRC and information security experience across ISO 27001, ISO 9001, Cyber Essentials, SOC 2 awareness, NIST Framework, GDPR, vendor risk management, audit readiness, DPA tracking, access control, endpoint security, and customer assurance.\r\n\r\nAt Thrive Learning, he has supported 50+ vendors in Vanta, maintained risk classifications, supported audit readiness, managed application ownership records, coordinated DPA tracking, handled customer due-diligence and security questionnaires, and supported IT/security operations through Pulseway, Kandji, Jira, and endpoint-management workflows.\r\n\r\nNotable results:\r\n- Reduced DPA time-to-approval by 70%.\r\n- Guided a successful ISO 9001 Stage 1 audit by building six process flows.\r\n- Led an MDM migration to Kandji for 250+ endpoints with zero downtime.\r\n- Reduced IT support tickets by 40% after endpoint-management improvements.\r\n- Identified the Shai-Hulud NPM supply chain threat and engineered a custom scan and remediation script, deployed via Iru to secure the developer fleet immediately — proactive threat detection outside his core compliance remit."
+    "body": "Zarak has hands-on GRC and information security experience across ISO 27001, ISO 9001, SOC 2, Cyber Essentials, GDPR, vendor risk management, audit readiness, DPA tracking, access control, endpoint security, and customer assurance. Working knowledge also includes HIPAA, ISO 42001, and the EU AI Act.\r\n\r\nAt Thrive Learning, he has supported 50+ vendors in Vanta, maintained risk classifications, supported audit readiness, managed 75+ application ownership records in Cakewalk, coordinated DPA tracking, handled customer due-diligence and security questionnaires, and supported IT/security operations through Pulseway, Kandji/Iru, and Jira.\r\n\r\nNotable results:\r\n- Cut contract and DPA approval time by 70% by redesigning the DPA tracker and shipping ContraAI.\r\n- Guided a successful ISO 9001 Stage 1 audit by building six process flows.\r\n- Led an MDM migration to Kandji/Iru for 250+ endpoints with zero downtime.\r\n- Reduced IT support tickets by 40% after endpoint-management improvements.\r\n- Identified the Shai-Hulud NPM supply chain threat and engineered a custom scan and remediation script, deployed via Iru to secure the developer fleet immediately."
   },
   {
     "id": "skills",
@@ -474,7 +568,9 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "technical",
       "security",
       "grc",
-      "customer-success"
+      "customer-success",
+      "fde",
+      "automation"
     ],
     "aliases": [
       "what skills",
@@ -491,7 +587,7 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-cv",
       "open-linkedin"
     ],
-    "body": "Core skills include:\r\n- Security and GRC: ISO 27001, ISO 9001, Cyber Essentials, vendor risk, third-party risk, DPA tracking, audit readiness, access control.\r\n- Customer-facing work: stakeholder engagement, technical-to-business translation, customer onboarding, due diligence coordination, account management, pre-sales support.\r\n- Tools: Vanta, Cakewalk, Jira, Pulseway, Kandji, Bitdefender GravityZone, Splunk, Chronicle, Wireshark, VirusTotal.\r\n- Technical: Python, JavaScript, SQL/MySQL, Linux, macOS, Windows, React/TypeScript, Vercel, Figma, Google Stitch, Claude, Codex."
+    "body": "Core skills include:\r\n- Security and GRC: ISO 27001, ISO 9001, SOC 2, GDPR, Cyber Essentials, vendor risk, DPA tracking, audit readiness, RFI/RFQ, access control. Working knowledge of HIPAA, ISO 42001, and the EU AI Act.\r\n- AI and automation: TypeScript, Next.js, Supabase (PostgreSQL, RLS), Claude API, n8n, RAG, HuggingFace, Cursor SDK, Vercel.\r\n- Customer-facing work: GTM, RevOps, stakeholder engagement, technical-to-business translation, customer onboarding, due diligence, sales enablement, HubSpot, Salesforce, Notion CRM.\r\n- Platforms: Vanta, Cakewalk, Jira, Pulseway, Kandji/Iru.\r\n- Security ops and SIEM (educational): endpoint posture, incident response, Splunk, Chronicle, Suricata, Wireshark, VirusTotal, Bitdefender GravityZone."
   },
   {
     "id": "why-hire-me",
@@ -520,6 +616,6 @@ export const ASSISTANT_KNOWLEDGE: AssistantKnowledgeEntry[] = [
       "open-linkedin",
       "open-contact"
     ],
-    "body": "Hire Zarak if you want someone who combines security/compliance execution with product-building instincts.\r\n\r\nHe has worked across ISO 27001, ISO 9001, Cyber Essentials, vendor risk management, DPA tracking, endpoint security, and customer due diligence. At Thrive Learning, he has owned vendor-risk and compliance workflows across 50+ vendors, supported audit readiness, contributed to deal support through security/RFI responses, and translated technical requirements into clear actions for non-technical stakeholders.\r\n\r\nHe also builds tools from real operational pain. VenderScope came from manual vendor audit friction. ContraAI came from contract-review workflow gaps. ZARAK_OS itself demonstrates React, TypeScript, Three.js, interaction design, and product execution.\r\n\r\nHe brings Lead PM experience into that work: as Co-Founder & Lead PM at Nexique Design Labs, he delivered 15+ client projects end-to-end and built onboarding workflows from scratch for a 5-person team. That structured, deadline-driven PM discipline now shows up in how he runs vendor-risk workflows, audit timelines, and stakeholder communication at Thrive."
+    "body": "Hire Zarak if you want someone who combines security/compliance execution with product-building instincts.\r\n\r\nHe has worked across ISO 27001, ISO 9001, SOC 2, Cyber Essentials, vendor risk, DPA tracking, endpoint security, and customer due diligence. At Thrive Learning he cut contract and DPA approval time by 70% by redesigning the DPA tracker and shipping ContraAI, built the Content Audit Tool now used as the company standard, owned vendor-risk workflows across 50+ vendors, supported ISO 9001 Stage 1, and translated security requirements into deal-closing RFI responses.\r\n\r\nHe also builds tools from real operational pain. VenderScope came from manual vendor audit friction. ContraAI came from contract-review workflow gaps. An n8n pre-sales suite compressed bid cycles by 57%. ZARAK_OS itself demonstrates React, TypeScript, Three.js, interaction design, and product execution.\r\n\r\nHe brings Commercial Lead experience into that work: as Co-Founder & Commercial Lead at Nexique Design Labs, he owned GTM and delivery for 3 years, held 98% satisfaction and 7% churn across 15+ accounts, and built the CRM and intern onboarding system himself. That same high-agency pattern shows up in how he runs vendor-risk workflows, audit timelines, and stakeholder communication at Thrive."
   }
 ] as const;

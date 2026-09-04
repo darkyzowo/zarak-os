@@ -68,10 +68,10 @@ export const APP_REGISTRY = [
     label: 'CV.app',
     icon: FileDown,
     component: DownloadCV,
-    defaultWindowSize: { width: 980, height: 680 },
+    defaultWindowSize: { width: 1080, height: 720 },
     minimumWindowSize: { width: 620, height: 420 },
     dockVisible: true,
-    searchKeywords: ['cv', 'resume', 'document', 'pdf', 'viewer', 'download'],
+    searchKeywords: ['cv', 'resume', 'document', 'pdf', 'viewer', 'download', 'grc', 'fde', 'gtm', 'ops'],
     defaultOpen: true,
   },
   {

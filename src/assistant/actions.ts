@@ -10,7 +10,7 @@ export const ASSISTANT_EXTERNAL_LINKS = {
   github: "https://github.com/syed-hassan7",
   venderscope: "https://venderscope.vercel.app/",
   portfolio: "https://zarak-os.vercel.app/",
-  cv: "/Syed_Zarak_Hassan_CV_2026.pdf",
+  cv: "/Syed_Zarak_Hassan_CV_GRC_2026.pdf",
   claudeHarness: "https://github.com/syed-hassan7/claude-harness",
   redTeamDesk: "https://github.com/syed-hassan7/red-team-desk",
   maternify: "https://maternify-theta.vercel.app/",

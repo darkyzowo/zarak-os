@@ -41,8 +41,6 @@ export const STARTER_QUESTIONS = [
   "What security and GRC experience does Zarak have?",
   "What customer-facing experience does Zarak have?",
   "What has Zarak built?",
-  "What is VenderScope?",
-  "What is ContraAI?",
   "Where can I view his CV?",
   "How can I contact him?",
 ] as const;

@@ -105,7 +105,7 @@ export default function About({ isMobile = false }: AppComponentProps) {
             actually help auditors understand complex systems — spoiler: they do.
           </p>
           <div className="mt-5 rounded-xl border border-os-accent/15 bg-os-accent/[0.055] px-4 py-3 text-xs font-medium uppercase tracking-[0.16em] text-os-accent/90">
-            Available for: GRC roles · InfoSec · client-facing security · freelance
+            Available for: GRC · FDE · GTM/CS · technical operations
           </div>
         </section>
 

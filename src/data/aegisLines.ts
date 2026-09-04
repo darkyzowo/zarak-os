@@ -60,6 +60,7 @@ export const AEGIS_LINES: readonly AegisLine[] = [
   { id: 'builder-operational', text: 'Operational pain tends to become product ideas.', categories: ['builder', 'projects'] },
 
   { id: 'cv-open-me', text: 'CV.app is the high-signal route.', categories: ['cv', 'recruiter'] },
+  { id: 'cv-four-versions', text: 'Four CVs. Pick the lane.', categories: ['cv', 'recruiter', 'playful'] },
   { id: 'cv-pdf-with-purpose', text: 'That PDF earns its pixels.', categories: ['cv', 'playful'] },
   { id: 'cv-proof-points', text: 'The CV keeps the proof points close together.', categories: ['cv', 'looking-for'] },
   { id: 'cv-recruiter-speedrun', text: 'Recruiter speedrun available in CV.app.', categories: ['cv', 'recruiter', 'playful'] },

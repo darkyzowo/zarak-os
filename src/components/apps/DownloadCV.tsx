@@ -324,21 +324,28 @@ export default function DownloadCV({ isMobile = false }: AppComponentProps) {
                   </h2>
                 </div>
               </div>
-              <div className={`flex items-center gap-1 rounded-xl border border-white/10 bg-black/20 p-1 ${isMobile ? 'w-full' : ''}`}>
-                {recruiterProfile.cvs.map((cv) => (
-                  <button
-                    key={cv.id}
-                    onClick={() => setActiveCvId(cv.id)}
-                    className={`flex-1 sm:flex-none rounded-lg px-4 py-2 sm:py-1.5 text-xs font-semibold transition-all ${activeCvId === cv.id ? 'bg-os-accent text-os-bg shadow-sm' : 'text-os-text-sec hover:text-os-text-pri hover:bg-white/5'}`}
-                  >
-                    {cv.label}
-                  </button>
-                ))}
-              </div>
-              <div className={`items-center gap-2 rounded-full border border-os-accent/15 bg-os-accent/[0.055] px-3 py-1 text-[10px] uppercase tracking-[0.16em] text-os-accent/85 ${isMobile ? 'hidden' : 'hidden sm:flex'}`}>
+              <div className={`items-center gap-2 rounded-full border border-os-accent/15 bg-os-accent/[0.055] px-3 py-1 text-[10px] uppercase tracking-[0.16em] text-os-accent/85 ${isMobile ? 'self-start' : 'hidden sm:flex'}`}>
                 <ShieldCheck className="h-3.5 w-3.5" />
-                <span>native preview</span>
+                <span>{recruiterProfile.cvs.length} versions</span>
               </div>
+            </div>
+            <div
+              role="tablist"
+              aria-label="CV versions"
+              className={`mt-4 grid gap-1 rounded-xl border border-white/10 bg-black/20 p-1 ${isMobile ? 'grid-cols-2' : 'grid-cols-2 sm:grid-cols-4'}`}
+            >
+              {recruiterProfile.cvs.map((cv) => (
+                <button
+                  key={cv.id}
+                  type="button"
+                  role="tab"
+                  aria-selected={activeCvId === cv.id}
+                  onClick={() => setActiveCvId(cv.id)}
+                  className={`rounded-lg px-3 py-2 text-xs font-semibold transition-all ${activeCvId === cv.id ? 'bg-os-accent text-os-bg shadow-sm' : 'text-os-text-sec hover:bg-white/5 hover:text-os-text-pri'}`}
+                >
+                  {cv.label}
+                </button>
+              ))}
             </div>
           </header>
 
@@ -381,10 +388,9 @@ export default function DownloadCV({ isMobile = false }: AppComponentProps) {
               <section className={`rounded-3xl border border-white/10 bg-os-surface/45 shadow-xl shadow-black/10 ${isMobile ? 'p-4' : 'p-6'}`}>
                 <div className="border-b border-white/10 pb-4 sm:pb-5">
                   <p className="text-[10px] uppercase tracking-[0.22em] text-os-text-sec/55">Document details</p>
-                  <h3 className="mt-2 break-all text-lg font-semibold text-os-text-pri">{activeCv.fileName}</h3>
-                  <p className="mt-3 text-sm leading-6 text-os-text-sec">
-                    Recruiter-friendly PDF review lives directly inside the OS window, with download and full-tab fallback preserved.
-                  </p>
+                  <h3 className="mt-2 text-lg font-semibold text-os-text-pri">{activeCv.fullLabel}</h3>
+                  <p className="mt-1 break-all font-mono text-[11px] text-os-text-sec/80">{activeCv.fileName}</p>
+                  <p className="mt-3 text-sm leading-6 text-os-text-sec">{activeCv.focus}</p>
                 </div>
 
                 <div className={`mt-5 grid gap-3 ${isMobile ? 'grid-cols-2' : 'sm:grid-cols-2 xl:grid-cols-1'}`}>
@@ -431,7 +437,7 @@ export default function DownloadCV({ isMobile = false }: AppComponentProps) {
                     <div className="flex items-start justify-between gap-4">
                       <div>
                         <div className="text-sm font-semibold text-os-text-pri">Download the local PDF copy</div>
-                        <div className="mt-1 text-xs leading-5 text-os-text-sec">Keep an offline copy of the exact CV bundled with this portfolio.</div>
+                        <div className="mt-1 text-xs leading-5 text-os-text-sec">Keep an offline copy of the {activeCv.fullLabel} PDF bundled with this portfolio.</div>
                       </div>
                       <Download className="mt-0.5 h-4 w-4 shrink-0 text-os-warn" />
                     </div>
